@@ -9,8 +9,10 @@ def batch_badge_creator(names_array)
   }
 end
 
-def assign_rooms 
-  
+def assign_rooms(names_array)
+  names_array.collect {|name|
+    "Hello, Steve! You'll be assigned to room #{}"
+  }
 end
 
 def printer
