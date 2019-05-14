@@ -22,7 +22,7 @@ def printer(attendees)
     puts badge_maker(attendee)
     
   }
-  assign_rooms.each {|room|
+  assign_rooms(attendee).each {|room|
     puts room
   }
 end
