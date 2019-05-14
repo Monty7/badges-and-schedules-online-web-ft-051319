@@ -18,5 +18,7 @@ def assign_rooms(names_array)
 end
 
 def printer(attendees)
-
+  attendees.collect{|attendee|
+    badge_maker(attendee)
+  }
 end
