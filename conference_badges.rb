@@ -19,6 +19,6 @@ end
 
 def printer(attendees)
   attendees.collect{|attendee|
-    puts badge_maker(attendee)
+    puts attendee
   }
 end
