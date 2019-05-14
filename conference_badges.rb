@@ -22,5 +22,5 @@ def printer(attendees)
     puts badge_maker(attendee)
     
   }
-    puts assigned_rooms(attendees)
+    puts assign_rooms(attendees)
 end
